@@ -42,7 +42,7 @@ streamlit.dataframe(fruits_to_show)
 # display fruityvice api response
 streamlit.header('View Our Fruit List - Add Your Favorites!')
 if streamlit.button('Get Fruit List'):
-    streamlit.dataframe(my_fruit_list.index())
+    streamlit.dataframe(my_fruit_list.index)
 
 try:
     # adding user input for fruityvice api request
