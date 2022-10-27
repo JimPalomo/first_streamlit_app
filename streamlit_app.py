@@ -30,7 +30,7 @@ streamlit.write('The user entered ', fruit_choice)
 # display fruityvice api response
 streamlit.header('Fruityvice Fruit Advice!')
 
-fruityvice_response = requests.get('https://fruityvice.com/api/fruit/' + 'kiwi')
+fruityvice_response = requests.get('https://fruityvice.com/api/fruit/' + fruit_choice)
 # streamlit.text(fruityvice_response.json()) # write json data on the screen
 
 # take the json version of the response and normalize it
