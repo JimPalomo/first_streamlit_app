@@ -1,2 +1,19 @@
 # requirements.txt
 snowflake-connector-python[pandas]
+
+# Below are extra if none of the above work
+# snowflake-connector-python[pandas]
+# pyarrow<8.1.0,>=8.0.0
+
+
+
+# Alternate Approach
+# -------------------
+# snowflake-connector-python
+# pandas
+# pyarrow
+
+# ---------------------------------------------
+# pyarray latest version 9.0.0 does not work
+# UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+# ---------------------------------------------
